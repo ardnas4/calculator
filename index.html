@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Calculator</title>
+        <link rel="stylesheet" href="styles.css">
+        <link href="https://fonts.cdnfonts.com/css/ds-digital" rel="stylesheet">
+    </head>
+
+    <style>
+        @import url('https://fonts.cdnfonts.com/css/ds-digital');
+    </style>
+
+    <body>
+        <header>
+            <h1>A Simple Calculator</h1>
+        </header>
+
+        <div class="container">
+            <div class="calculator-body">
+                <div class="screen-container">
+                    <div class="screen">0</div>
+                </div>
+                
+                <div class="button-container">
+                    <button class="all-clear" id="clear" value="all-clear">AC</button>
+                    <button class="module" value="module">%</button>
+                    <button class="sqrt" value="sqrt">&Sqrt;</button>
+                    <button class="delete" id="clear" title="delete">←</button>
+
+                    <button class="number" value="7">7</button>
+                    <button class="number" value="8">8</button>
+                    <button class="number" value="9">9</button>
+                    <button class="operator" value="/">&div;</button>
+
+                    <button class="number" value="4">4</button>
+                    <button class="number" value="5">5</button>
+                    <button class="number" value="6">6</button>
+                    <button class="operator" value="*">x</button>
+
+                    <button class="number" value="1">1</button>
+                    <button class="number" value="2">2</button>
+                    <button class="number" value="3">3</button>
+                    <button class="operator" value="-">-</button>
+
+                    <button class="number" value="0">0</button>
+                    <button class="number decimal" value=".">.</button>
+                    <button class="equals operator value="equals">=</button>
+                    <button class="operator" value="+">+</button>
+                </div>
+            </div>
+        </div>
+        <script src="calculator.js"></script>
+    </body>
+</html>
